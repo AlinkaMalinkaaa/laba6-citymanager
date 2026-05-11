@@ -39,7 +39,7 @@ public class ConnectionListener {
                     handleClient(clientSocket);
                 } catch (Exception e) {
                     System.err.println("[SERVER] Ошибка при работе с клиентом: " + e.getMessage());
-                    e.printStackTrace();  // ← ДОБАВЬТЕ ЭТУ СТРОКУ!
+                    e.printStackTrace();  
                 } finally {
                     clientSocket.close();
                 }

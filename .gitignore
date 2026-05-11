@@ -1,0 +1,25 @@
+# Компиляция и сборка
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Данные и логи
+data.dat
+*.log
+*.tmp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
